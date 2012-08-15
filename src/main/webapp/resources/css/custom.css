@@ -1,0 +1,20 @@
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 900px;
+}
+
+.login .control-label {
+	width: 100px;
+}
+
+.login .controls {
+	margin-left: 110px;
+	padding-top: 5px;
+}
+
+.login .controls input {
+	height: 25px;
+}
+
+.login form {
+	margin-top: 20px;
+}
