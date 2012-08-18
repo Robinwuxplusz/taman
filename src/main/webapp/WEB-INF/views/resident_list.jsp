@@ -30,7 +30,7 @@
 			</thead>
 			<tbody id="member_body">
 				<tr>
-					<td><a href="${ctx}/resident/edit">10001</a></td>
+					<td><a href="${ctx}/resident/edit/10001">10001</a></td>
 					<td>Raymond</td>
 					<td>2009-12-11</td>
 					<td>021222111</td>
@@ -42,7 +42,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><a href="${ctx}/resident/edit">10002</a></td>
+					<td><a href="${ctx}/resident/edit/10002">10002</a></td>
 					<td>leon.zhou</td>
 					<td>2009-12-11</td>
 					<td>15887823211</td>
