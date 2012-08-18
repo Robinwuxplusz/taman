@@ -35,7 +35,11 @@ public class AccountController {
 			return "welcome";
 		}
 		model.put("loginForm", loginForm);
-		return "loginsuccess";
+		return "aaa";
 	}
 
+//	@RequestMapping(value="/contacts", method=RequestMethod.GET)
+//	public ModelAndView showContact() {
+//		return new ModelAndView("contact", "command", new Contact());
+//	}
 }
