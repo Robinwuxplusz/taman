@@ -13,7 +13,7 @@
 			>
 		</div>
 		<div align="right" style="margin-bottom: 18px;">
-			<input type="button" value="<fmt:message key="com.new"></fmt:message>" class="btn btn-primary" onclick="search_or_update_story('delete')">
+			<a class="btn btn-primary" href="${ctx}/resident/add "><fmt:message key="com.new"></fmt:message></a>
 		</div>
 		<table id="user_table" class="table table-striped table-bordered">
 			<thead>
@@ -30,7 +30,7 @@
 			</thead>
 			<tbody id="member_body">
 				<tr>
-					<td><a href="/admin/user/user_info/16/">10001</a></td>
+					<td><a href="${ctx}/resident/edit">10001</a></td>
 					<td>Raymond</td>
 					<td>2009-12-11</td>
 					<td>021222111</td>
@@ -42,7 +42,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><a href="/admin/user/user_info/3/">10002</a></td>
+					<td><a href="${ctx}/resident/edit">10002</a></td>
 					<td>leon.zhou</td>
 					<td>2009-12-11</td>
 					<td>15887823211</td>
