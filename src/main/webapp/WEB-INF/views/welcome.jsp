@@ -26,7 +26,7 @@
 			</div>
 			<div style="text-align: center; padding: 20px;">
 				<font style="font-size: 24px;">Selamat Datang Ke</font><br /> <br /> <font style="font-size: 24px;">"Sistem
-					Pengurusan Taman Medan Cahaya, Fasa 2, PJ."</font>
+					Pengurusan  AAAAAAs????? Taman Medan Cahaya, Fasa 2, PJ."</font>
 			</div>
 			<div>
 				<div class="grid_shadow" style="border: solid 1px black; float: left; width: 330px; height: 300px; margin-left: 50px; padding: 10px;">
