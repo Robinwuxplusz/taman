@@ -38,4 +38,10 @@ public class ResidentController {
         //TODO
         return "resident_edit";
     }
+    
+    @RequestMapping(value="edit", method = RequestMethod.POST)
+    public String submitEditResident(Map<String, Object> model) {
+        //TODO
+        return "resident_list";
+    }
 }
