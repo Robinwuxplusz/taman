@@ -1,5 +1,11 @@
-.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-width: 900px;
+.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container
+	{
+	width: 900px;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 
 .login .control-label {
@@ -17,4 +23,9 @@ width: 900px;
 
 .login form {
 	margin-top: 20px;
+}
+
+/* Dashboard CSS */
+.dash_img img {
+	width: 80px;
 }
