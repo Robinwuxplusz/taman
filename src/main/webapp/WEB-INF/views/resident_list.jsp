@@ -13,9 +13,7 @@
 			>
 		</div>
 		<div align="right" style="margin-bottom: 18px;">
-			<input type="button" value="<fmt:message key="com.new"></fmt:message>" class="btn btn-primary" onclick="search_or_update_story('delete')"> <input
-				type="button" value="<fmt:message key="com.delete"></fmt:message>" class="btn btn-danger" onclick="search_or_update_story('delete')"
-			>
+			<input type="button" value="<fmt:message key="com.new"></fmt:message>" class="btn btn-primary" onclick="search_or_update_story('delete')">
 		</div>
 		<table id="user_table" class="table table-striped table-bordered">
 			<thead>
@@ -37,7 +35,11 @@
 					<td>2009-12-11</td>
 					<td>021222111</td>
 					<td>raymond12@gmail.com</td>
-					<td><a href="#">EDIT/VIEW</a></td>
+					<td>
+						<a href="#">EDIT/VIEW</a>
+						&nbsp;|&nbsp; 
+						<a href="#">DELETE</a>
+					</td>
 				</tr>
 				<tr>
 					<td><a href="/admin/user/user_info/3/">10002</a></td>
@@ -45,7 +47,11 @@
 					<td>2009-12-11</td>
 					<td>15887823211</td>
 					<td>leon.zhou@gmail.com</td>
-					<td><a href="#">EDIT/VIEW</a></td>
+					<td>
+						<a href="#">EDIT/VIEW</a>
+						&nbsp;|&nbsp; 
+						<a href="#">DELETE</a>
+					</td>
 				</tr>
 			</tbody>
 		</table>
