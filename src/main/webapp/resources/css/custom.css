@@ -3,6 +3,14 @@
 	width: 900px;
 }
 
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	height: 25px;
+}
+
+table {
+	font-size: 13px;
+}
+
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -24,6 +32,13 @@ body {
 .login form {
 	margin-top: 20px;
 }
+
+.grid_shadow {
+    -moz-box-shadow:0 0 20px 4px #b7bec1;
+    -webkit-box-shadow:0 0 20px 4px #b7bec1;
+    box-shadow:0 0 20px 4px #b7bec1;
+}
+
 
 /* Dashboard CSS */
 .dash_img img {

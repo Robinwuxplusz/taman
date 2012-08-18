@@ -5,6 +5,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<c:set var="ctx" value="${pageContext.request.contextPath}" />
 
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
@@ -24,7 +25,7 @@
 							style="margin-top: 10px; color: #ffffff; margin-left: 10px"
 						>|</span>
 					</a></li>
-					<li><a href="/">Logout </a></li>
+					<li><a href="${ctx}/">Logout </a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
@@ -34,7 +35,7 @@
 
 <div class="container">
 	<ul class="breadcrumb" id="admin_nav_bar">
-		<li><a href="/admin/stats/"><fmt:message key="tmp.resident"></fmt:message></a> <span class="divider">|</span></li>
+		<li><a href="${ctx}/resident/list"><fmt:message key="tmp.resident"></fmt:message></a> <span class="divider">|</span></li>
 		<li><a href="/admin/user/"><fmt:message key="tmp.facility"></fmt:message></a> <span class="divider">|</span></li>
 		<li><fmt:message key="tmp.complaint"></fmt:message> <span class="divider">|</span></li>
 		<li><a href="/admin/transaction_records/"><fmt:message key="tmp.announcement"></fmt:message></a> <span

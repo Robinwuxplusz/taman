@@ -21,7 +21,7 @@
 <body style="padding: 0px;">
 	<div style="width: 900px; text-align: center; margin-left: auto; margin-right: auto;">
 		<div class="container">
-			<div>
+			<div class="grid_shadow">
 				<img src="<c:url value='/resources/img/custom/header.png' />">
 			</div>
 			<div style="text-align: center; padding: 20px;">
@@ -29,7 +29,7 @@
 					Pengurusan Taman Medan Cahaya, Fasa 2, PJ."</font>
 			</div>
 			<div>
-				<div style="border: solid 1px black; float: left; width: 330px; height: 300px; margin-left: 50px; padding: 10px;">
+				<div class="grid_shadow" style="border: solid 1px black; float: left; width: 330px; height: 300px; margin-left: 50px; padding: 10px;">
 					<h2>Pungumuman</h2>
 					<marquee onmouseover="stop()" onmouseout="start()" behavior="scroll" direction="up" scrollamount="2">
 						<strong>Date: </strong> 18/05/2012<br> <strong>To: </strong> All student<br> <strong>From: </strong>
@@ -39,7 +39,7 @@
 
 					</marquee>
 				</div>
-				<div class="login"
+				<div class="login grid_shadow"
 					style="border: solid 1px black; float: left; width: 330px; height: 300px; margin-left: 100px; padding: 10px;"
 				>
 					<h2>Log Masuk</h2>
@@ -71,7 +71,7 @@
 		</div>
 		<div class="container">
 			<div style="margin-top: 10px; padding-top: 10px;">
-				<div style="border: solid 1px black; float: left; width: 900px; height: 100px; padding: 10px;">
+				<div class="grid_shadow" style="border: solid 1px black; float: left; width: 900px; height: 100px; padding: 10px;">
 					<h2>Hubungi Kami:</h2>
 					<table>
 						<tr>

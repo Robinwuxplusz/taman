@@ -24,5 +24,12 @@
 		<put-attribute name="title" value="Dashboard" type="string" />
 		<put-attribute name="content" value="/WEB-INF/views/dashboard.jsp" />
 	</definition>
+	
+	<!-- Resident -->
+	<definition name="resident_list" extends="mainTemplate">
+		<put-attribute name="title" value="Resident List" type="string" />
+		<put-attribute name="content" value="/WEB-INF/views/resident_list.jsp" />
+	</definition>
+	
 
 </tiles-definitions>
