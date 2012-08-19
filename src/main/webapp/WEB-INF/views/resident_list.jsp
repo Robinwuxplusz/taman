@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <c:set var="ctx" value="${pageContext.request.contextPath}" />
 <div class="container">
-	<h1 align="center" style="margin-bottom: 8px;">
+	<h1 align="center" class="page_title" >
 		<fmt:message key="tmp.resident"></fmt:message>
 	</h1>
 	<form id="story_form" action="/update_story/" method="post" class="form-inline">
@@ -59,7 +59,7 @@
 			<ul>
 				<li class="active"><a id="current_page">1</a></li>
 				<li><a
-					href="?page=2&amp;sort=public_id&amp;order=desc&amp;public_id=&amp;is_search_all=True&amp;hidden_operate="
+					href="#"
 				>next</a></li>
 			</ul>
 		</div>

@@ -11,9 +11,9 @@
 <link rel="stylesheet"
 	href="<c:url value="/resources/css/bootstrap.css" />" type="text/css"
 	media="screen, projection">
-<link rel="stylesheet"
+<!-- <link rel="stylesheet"
 	href="<c:url value="/resources/css/bootstrap-responsive.css" />"
-	type="text/css" media="screen, projection">
+	type="text/css" media="screen, projection"> -->
 <link rel="stylesheet"
 	href="<c:url value="/resources/css/custom.css" />" type="text/css"
 	media="screen, projection">

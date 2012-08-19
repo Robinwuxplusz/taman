@@ -26,7 +26,7 @@
 			</div>
 			<div style="text-align: center; padding: 20px;">
 				<font style="font-size: 24px;">Selamat Datang Ke</font><br /> <br /> <font style="font-size: 24px;">"Sistem
-					Pengurusan  AAAAAAs????? Taman Medan Cahaya, Fasa 2, PJ."</font>
+					Pengurusan Taman Medan Cahaya, Fasa 2, PJ."</font>
 			</div>
 			<div>
 				<div class="grid_shadow" style="border: solid 1px black; float: left; width: 330px; height: 300px; margin-left: 50px; padding: 10px;">
@@ -47,19 +47,19 @@
 						<fieldset>
 							<div class="control-group">
 								<label class="control-label" for="input01"><fmt:message key="no.unit" /></label>
-								<div class="controls">
+								<div class="controls" align="left">
 									<FONT color="red"><form:errors path="userName" /></FONT>
 									<form:input path="userName" cssClass="input-medium" />
 								</div>
 							</div>
 							<div class="control-group">
 								<label class="control-label" for="input01"><fmt:message key="password" /></label>
-								<div class="controls">
+								<div class="controls" align="left">
 									<FONT color="red"><form:errors path="password" /></FONT>
 									<form:input path="password" cssClass="input-medium" />
 								</div>
 							</div>
-							<div class="form-actions">
+							<div class="form-actions" align="left" style="padding-left: 110px;">
 								<button type="submit" class="btn btn-primary">
 									<fmt:message key="login" />
 								</button>

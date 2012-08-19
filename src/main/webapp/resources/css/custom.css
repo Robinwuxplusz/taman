@@ -7,8 +7,33 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	height: 25px;
 }
 
+.form-horizontal .form-actions {
+	padding-left: 270px;
+}
+
+.form-horizontal .control-label {
+	width: 250px;
+}
+
+.form-horizontal .controls {
+	margin-left: 270px;
+}
+
+.custom_form {
+	border: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	padding: 15px 8px;
+}
+
 table {
 	font-size: 13px;
+}
+
+legend {
+	margin-bottom: 0px;
+	margin-left: 10px;
+	width: 95%;
 }
 
 body {
@@ -39,6 +64,9 @@ body {
     box-shadow:0 0 20px 4px #b7bec1;
 }
 
+.page_title {
+	margin-bottom: 16px;
+}
 
 /* Dashboard CSS */
 .dash_img img {
