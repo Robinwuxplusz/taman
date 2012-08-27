@@ -68,6 +68,10 @@ body {
 	margin-bottom: 16px;
 }
 
+table a {
+	text-decoration: underline;
+}
+
 /* Dashboard CSS */
 .dash_img img {
 	width: 80px;

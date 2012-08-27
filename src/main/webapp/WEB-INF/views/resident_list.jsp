@@ -36,9 +36,7 @@
 					<td>021222111</td>
 					<td>raymond12@gmail.com</td>
 					<td>
-						<a href="#">EDIT/VIEW</a>
-						&nbsp;|&nbsp; 
-						<a href="#">DELETE</a>
+						<a href="#" onclick="return confirm('Are you sure to delete this resident?')">DELETE</a>
 					</td>
 				</tr>
 				<tr>
@@ -48,9 +46,7 @@
 					<td>15887823211</td>
 					<td>leon.zhou@gmail.com</td>
 					<td>
-						<a href="#">EDIT/VIEW</a>
-						&nbsp;|&nbsp; 
-						<a href="#">DELETE</a>
+						<a href="#" onclick="return confirm('Are you sure to delete this resident?')">DELETE</a>
 					</td>
 				</tr>
 			</tbody>
