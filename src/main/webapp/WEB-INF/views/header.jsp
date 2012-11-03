@@ -36,7 +36,7 @@
 <div class="container">
 	<ul class="breadcrumb" id="admin_nav_bar">
 		<li><a href="${ctx}/resident/list"><fmt:message key="tmp.resident"></fmt:message></a> <span class="divider">|</span></li>
-		<li><a href="/admin/user/"><fmt:message key="tmp.facility"></fmt:message></a> <span class="divider">|</span></li>
+		<li><a href="${ctx}/facility/list"><fmt:message key="tmp.facility"></fmt:message></a> <span class="divider">|</span></li>
 		<li><fmt:message key="tmp.complaint"></fmt:message> <span class="divider">|</span></li>
 		<li><a href="/admin/transaction_records/"><fmt:message key="tmp.announcement"></fmt:message></a> <span
 			class="divider"

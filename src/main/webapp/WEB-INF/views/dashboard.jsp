@@ -13,7 +13,7 @@
 			</div>
 			<div class="span4" style="width: 145px; margin-left: 5px;">
 				<div class="well center">
-					<a href="facility"><img src="<c:url value="/resources/img/custom/menu_2.png" />"></a>
+					<a href="${ctx}/facility/list"><img src="<c:url value="/resources/img/custom/menu_2.png" />"></a>
 					<h4><fmt:message key="tmp.facility"></fmt:message></h4>
 				</div>
 			</div>

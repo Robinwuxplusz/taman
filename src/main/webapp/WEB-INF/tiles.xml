@@ -41,4 +41,20 @@
 		<put-attribute name="content" value="/WEB-INF/views/resident_edit.jsp" />
 	</definition>
 
+	<!-- Facility -->
+	<definition name="facility_list" extends="mainTemplate">
+		<put-attribute name="title" value="Facility List" type="string" />
+		<put-attribute name="content" value="/WEB-INF/views/facility_list.jsp" />
+	</definition>
+	
+	<definition name="facility_add" extends="mainTemplate">
+		<put-attribute name="title" value="Facility Add" type="string" />
+		<put-attribute name="content" value="/WEB-INF/views/facility_add.jsp" />
+	</definition>
+	
+	<definition name="facility_edit" extends="mainTemplate">
+		<put-attribute name="title" value="Facility Edit" type="string" />
+		<put-attribute name="content" value="/WEB-INF/views/facility_edit.jsp" />
+	</definition>
+
 </tiles-definitions>
