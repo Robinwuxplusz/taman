@@ -19,11 +19,11 @@
 			</div>
 			<div class="span4" style="width: 145px; margin-left: 5px;">
 				<div class="well center">
-					<a href="complaint/list"><img src="<c:url value="/resources/img/custom/menu_3.png" />"></a>
+					<a href="${ctx}/complaint/list"><img src="<c:url value="/resources/img/custom/menu_3.png" />"></a>
 					<h4><fmt:message key="tmp.complaint"></fmt:message></h4>
 				</div>
 			</div>
-			<div class="span4 offset1" style="width: 145px; margin-left: 5px;">
+			<div class="span4" style="width: 145px; margin-left: 5px;">
 				<div class="well center">
 					<a href="announcement"><img src="<c:url value="/resources/img/custom/menu_4.png" />"></a>
 					<h4><fmt:message key="tmp.announcement"></fmt:message></h4>
